@@ -24,34 +24,6 @@ header img {
   border: 4px solid rgba(19, 214, 165, 0.884);
 }
 
-/* header img {
-  display: block;
-}
-
-h1 {
-  text-align: right, top;
-  text-justify: auto;
-  font-size: 4rem;
-  font-family: serif;
-
-}
-
-h2 {
-  font-family: serif;
-}
-
-h3 {
-  font-family: serif;
-}
-
-p {
-  font-family: sans-serif;
-}
-
-ul li {
-  font-family: sans-serif;
-} */
-
 footer {
   background-color: black;
   color: white;
