@@ -1,0 +1,52 @@
+body {
+  font-size: 16pt;
+  box-align: center;
+}
+
+header,
+main,
+footer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgba(19, 214, 165, 0.884);
+  padding: 2.5rem;
+  display: block;
+}
+
+header img {
+  display: block;
+}
+
+h1 {
+  text-align: right, top;
+  text-justify: auto;
+  font-size: 4rem;
+  font-family: serif;
+
+}
+
+h2 {
+  font-family: serif;
+}
+
+h3 {
+  font-family: serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+ul li {
+  font-family: sans-serif;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
