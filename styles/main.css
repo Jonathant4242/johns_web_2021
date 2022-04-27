@@ -12,10 +12,13 @@ footer {
 }
 
 header {
+  display: grid;
+  grid-template-columns: 400px 1fr;
   background-color: rgba(19, 214, 165, 0.884);
   padding: 2.5rem;
   display: block;
-  text-align: right;
+  align-items: center;
+  text-align: center;
 }
 
 header img {
