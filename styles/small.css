@@ -1,0 +1,29 @@
+@media only screen and (max-width: 32.5em) {
+  body {
+    font-size: 13px;
+    line-height: 1.5;
+    align-items: center;
+  }
+
+
+  header {
+    display: block;
+    padding: 1rem;
+
+  }
+
+  main {
+    text-align: center;
+  }
+
+  main ul {
+    padding-top: .05em;
+    font-size: 15px;
+  }
+
+  header img {
+    width: 18%;
+    height: auto;
+    margin: 10px;
+  }
+}

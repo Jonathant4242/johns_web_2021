@@ -1,0 +1,24 @@
+@media only screen and (min-width: 65em) {
+  body {
+    font-size: 20pt;
+  }
+
+  header img {
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    border: 10px solid rgba(19, 214, 165, 0.884);
+  }
+
+  main ul {
+    padding-top: 1em;
+  }
+
+  footer {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+  }
+}
