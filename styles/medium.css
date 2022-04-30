@@ -26,6 +26,10 @@ main ul {
   text-align: center;
 }
 
+main ul ul {
+  padding-top: 0px;
+}
+
 header img {
   float: left;
   margin: 10px;
