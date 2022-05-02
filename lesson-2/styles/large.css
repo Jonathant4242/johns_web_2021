@@ -4,29 +4,19 @@
   footer,
   nav,
   main {
+    grid-template-columns: 1fr 1fr 1fr;
     max-width: 75rem;
     margin: auto;
+    column-count: 3;
 
   }
 
-  nav ul {
-    padding-left: 2%;
-  }
-
-  nav ul li {
-    flex-basis: auto
-  }
-
-  nav a {
-    padding: .5rem 1rem;
+  main section:nth-child(3) {
+    grid-column: span 1;
   }
 
   main figure {
-    width: 31%;
-  }
-
-  div.news {
-    column-count: 3;
+    width: 100%;
   }
 }
 
