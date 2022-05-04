@@ -1,16 +1,9 @@
-/*NOTE** html {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-} */
-
-/* body rules lesson 2 ranch */
 body {
   font-family: 'Share Tech Mono', monospace;
   font-size: 18px;
 
 }
 
-/* header rules lesson 2 ranch */
 header {
   background-color: darkorange;
   padding: 1em;
@@ -60,7 +53,6 @@ main h1 {
   color: darkorange;
 }
 
-/*figure - set up allows the image to scale perfect*/
 main figure img {
   width: 100%;
 }
@@ -85,10 +77,4 @@ footer {
   margin: 1rem 2%;
   background-color: darkorange;
 
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
