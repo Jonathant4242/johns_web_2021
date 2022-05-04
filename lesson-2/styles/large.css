@@ -1,22 +1,22 @@
 @media screen and (min-width: 1028px) {
 
   header,
-  footer,
+  /* footer, */
   nav,
   main {
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 75rem;
-    margin: auto;
-    column-count: 3;
+    /* max-width: 75rem; */
+    /* margin: auto; */
 
   }
+
+  main figure img {
+    width: fit-content;
+  }
+
 
   main section:nth-child(3) {
     grid-column: span 1;
-  }
-
-  main figure {
-    width: 100%;
   }
 }
 
