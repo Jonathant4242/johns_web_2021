@@ -11,6 +11,10 @@ body {
   padding: 1rem;
 }
 
+.font_demos {
+  font-size: 2rem;
+}
+
 .font_demo_1 {
   font-family: 'Fira Code', monospace;
 }
@@ -86,6 +90,7 @@ main h2,
 main h3,
 main h4,
 main h5 {
+  margin: auto;
   font-family: 'Fira Code', monospace;
   text-align: center;
   background-color: #FF9F1C;
