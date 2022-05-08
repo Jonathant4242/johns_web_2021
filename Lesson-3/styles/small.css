@@ -1,0 +1,148 @@
+/* font css rules
+
+font-family: 'Fira Code', monospace;
+*/
+
+
+/* body */
+body {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  padding: 1rem;
+}
+
+
+/* header */
+header,
+footer {
+  background-color: #CBF3F0;
+  padding: 1rem;
+}
+
+header {
+  font-size: .8rem;
+  display: grid;
+  grid-template-columns: 150px auto;
+  font-family: 'Fira Code', monospace;
+
+}
+
+header img {
+  width: 70%;
+}
+
+header div {
+  margin: 1rem;
+}
+
+/* nav */
+nav {
+  font-family: 'Fira Code', monospace;
+  /* font-weight: 900; */
+  font-size: 1rem;
+  font-weight: bolder;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #FFBF69;
+}
+
+nav div {
+  padding: .5rem;
+
+
+}
+
+.active {
+  background-color: #2EC4B6;
+}
+
+nav div a:link,
+nav div a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+nav div a:hover,
+nav div a:active {
+  background-color: #FF9F1C;
+  padding-left: .1rem;
+  padding-right: .1rem;
+}
+
+
+
+
+/* main */
+main h1,
+main h2,
+main h3,
+main h4,
+main h5 {
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+  background-color: #FF9F1C;
+  border-style: dotted;
+  border-color: #2EC4B6;
+}
+
+/* Table */
+table {
+  display: flexbox;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+
+}
+
+ !.font {
+  background-color: #FFBF69
+}
+
+table tr:nth-child(1) {
+  background-color: lightgrey;
+}
+
+table tr:nth-child(2) td:nth-child(1) {
+  background-color: #FFFFFF;
+}
+
+table tr:nth-child(2) td:nth-child(2) {
+  background-color: #CBF3F0;
+}
+
+table tr:nth-child(2) td:nth-child(3) {
+  background-color: #2EC4B6;
+}
+
+table tr:nth-child(2) td:nth-child(4) {
+  background-color: #FFBF69;
+}
+
+table tr:nth-child(2) td:nth-child(5) {
+  background-color: #FF9F1C;
+}
+
+
+
+table,
+th,
+td {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+  align-content: center;
+  content
+}
+
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+
+
+/* End of query */

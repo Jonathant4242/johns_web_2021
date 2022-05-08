@@ -1,0 +1,39 @@
+@media only screen and (min-width: 70rem) {
+  /* body */
+
+
+  /* header */
+  header {
+    /* background-color: blueviolet; */
+    font-size: 1.5rem;
+    align-items: center;
+  }
+
+  header div h2 {
+    font-size: 1.6rem;
+  }
+
+  header img {
+    width: 110%;
+  }
+
+  header div {
+    padding-left: 1rem;
+  }
+
+  /* nav */
+
+
+
+  /* main */
+
+
+
+  /* footer */
+
+
+
+
+}
+
+/* End of query */
