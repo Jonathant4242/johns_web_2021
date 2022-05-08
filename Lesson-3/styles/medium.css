@@ -1,0 +1,67 @@
+@media only screen and (min-width: 35rem) {
+  /* body */
+
+
+  /* header */
+  header {
+    /* background-color: blue; */
+    font-size: 1.1rem;
+  }
+
+  header div h2 {
+    font-size: 1.3rem;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+  /* nav */
+  nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+
+  /* main */
+  main h1,
+  main h2,
+  main h3,
+  main h4,
+  main h5,
+  main p,
+  main li {
+    text-align: left;
+    margin-left: 3rem;
+    margin-right: 9rem;
+  }
+
+  main p {
+    padding-bottom: 2rem;
+  }
+
+  table {
+    display: flexbox;
+    width: 90%;
+    text-align: center;
+    padding: 5rem;
+    margin: 2rem;
+    font-size: 1.2rem;
+  }
+
+  /* main p {
+    margin-left: 3rem;
+  } */
+
+
+  /* footer */
+
+
+
+
+}
+
+/* End of query */
