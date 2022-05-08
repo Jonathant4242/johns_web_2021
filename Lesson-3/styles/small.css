@@ -11,6 +11,21 @@ body {
   padding: 1rem;
 }
 
+.font_demo_1 {
+  font-family: 'Fira Code', monospace;
+}
+
+.font_demo_2 {
+  font-family: monospace;
+}
+
+.font_demo_3 {
+  font-family: Verdana, sans-serif;
+}
+
+.font_demo_4 {
+  font-family: sans-serif;
+}
 
 /* header */
 header,
@@ -20,19 +35,10 @@ footer {
 }
 
 header {
-  font-size: .8rem;
-  display: grid;
-  grid-template-columns: 150px auto;
   font-family: 'Fira Code', monospace;
+  font-size: .8rem;
+  text-align: center;
 
-}
-
-header img {
-  width: 70%;
-}
-
-header div {
-  margin: 1rem;
 }
 
 /* nav */
@@ -87,6 +93,13 @@ main h5 {
   border-color: #2EC4B6;
 }
 
+body img {
+  display: block;
+  width: fit-content;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
 /* Table */
 table {
   display: flexbox;
@@ -98,7 +111,7 @@ table {
 
 }
 
- !.font {
+.font {
   background-color: #FFBF69
 }
 
@@ -134,7 +147,6 @@ td {
   /* border: 1px solid black; */
   border-collapse: collapse;
   align-content: center;
-  content
 }
 
 
