@@ -1,13 +1,10 @@
 @media screen and (min-width: 560px) {
-  body {
+  main {
     grid-column: 1fr 1fr;
     column-gap: 3em;
   }
 
-
-
-
-  main section:nth-child(3) {
+  This er*/ main section:nth-child(3) {
     grid-column: span 2;
   }
 

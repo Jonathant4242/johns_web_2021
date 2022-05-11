@@ -1,8 +1,6 @@
 @media screen and (min-width: 1028px) {
 
-  header,
-  /* footer, */
-  nav,
+
   main {
     grid-template-columns: 1fr 1fr 1fr;
     /* max-width: 75rem; */
@@ -10,8 +8,17 @@
 
   }
 
-  main figure img {
+  header,
+  footer {
+    width: 100%;
+  }
+
+  section {
     width: fit-content;
+  }
+
+  main figure img {
+    width: 75%;
   }
 
 
