@@ -4,16 +4,16 @@
     column-gap: 3em;
   }
 
-  main section:nth-child(1) {
-    widths: ;
-  }
+
 
 
   main section:nth-child(3) {
     grid-column: span 2;
   }
 
-
+  main figure img:nth-child(1) {
+    min-width: 350px;
+  }
 
   main figure img {
     width: 100%;
