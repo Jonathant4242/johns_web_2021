@@ -1,0 +1,39 @@
+@media only screen and (min-width: 35rem) {
+
+  /* HEADER */
+
+  header {
+    display: grid;
+    grid-template-columns: 120px 50vw;
+    font-family: 'Fira Code', monospace;
+    font-size: 1rem;
+    text-align: center;
+
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul {
+    justify-content: center;
+    display: flex;
+    margin-left: 2vw;
+
+  }
+
+  /* side note to look in too */
+  /* I tried to use nth child. I couldn't make it work.
+  nav ul li a:nth-child(4) */
+  .one {
+    border-right: none;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, .3);
+  }
+
+
+
+}
