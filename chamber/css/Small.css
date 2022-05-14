@@ -17,20 +17,25 @@ header {
   font-family: 'Fira Code', monospace;
   font-size: .5rem;
   text-align: center;
+  padding: 1rem;
 
 }
 
 /* Header Grid */
 header img {
   grid-row: span 2;
+
+}
+
+header h1,
+header h2 {
+  grid-column: span 2;
+  padding: .4rem;
+  margin-left: 1rem;
 }
 
 header h1 {
-  grid-column: span 2;
-}
-
-header h2 {
-  grid-column: span 2;
+  background-color: #FFBF69;
 }
 
 header nav {
@@ -158,5 +163,8 @@ footer img {
 }
 
 .creatorInfo {
-  font-size: .75rem;
+  padding: .4rem;
+  margin-left: 1rem;
+  font-size: .6rem;
+  background-color: #FFBF69;
 }
