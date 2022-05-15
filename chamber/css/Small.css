@@ -156,6 +156,17 @@ nav ul.open {
   display: block;
 }
 
+/* footer */
+footer div a {
+  padding: 5px;
+}
+
+footer div address,
+footer div h4,
+.creatorInfo {
+  margin: 1rem;
+}
+
 /* footer grid */
 footer {
   text-align: center;
