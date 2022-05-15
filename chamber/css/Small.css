@@ -34,9 +34,14 @@ header h2 {
   margin-left: 1rem;
 }
 
-header h1 {
+.title {
   background-color: #FFBF69;
+  font-family: 'Fira Code', monospace;
+
 }
+
+header h1,
+footer h4 {}
 
 header nav {
   grid-column: span 3;
@@ -167,4 +172,12 @@ footer img {
   margin-left: 1rem;
   font-size: .6rem;
   background-color: #FFBF69;
+}
+
+
+/* Class area to creat flow */
+.title {
+  background-color: #FFBF69;
+  font-family: 'Fira Code', monospace;
+
 }

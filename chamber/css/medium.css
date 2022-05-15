@@ -35,5 +35,39 @@
   }
 
 
+  /* footer grid */
+  footer {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 120px 20vw;
+    grid-template-rows: auto;
+  }
+
+  footer img {
+    margin: auto;
+    grid-row: span 2;
+  }
+
+  .chamberInfo {
+    text-align: left;
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+
+  .footer_right {
+    text-align: right;
+    grid-column: span 2;
+    display: flexbox;
+    justify-content: flex-end;
+  }
+
+  .creatorInfo {
+    grid-column: span 4;
+    padding: 1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    background-color: #FFBF69;
+  }
+
 
 }
