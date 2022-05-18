@@ -1,0 +1,192 @@
+body {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  padding: 1rem;
+}
+
+/* Header */
+header,
+footer {
+  background-color: #CBF3F0;
+  padding: 1rem;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 120px 50vw;
+  font-family: 'Fira Code', monospace;
+  font-size: .5rem;
+  text-align: center;
+  padding: 1rem;
+
+}
+
+/* Header Grid */
+header img {
+  grid-row: span 2;
+
+}
+
+header h1,
+header h2 {
+  grid-column: span 2;
+  padding: .4rem;
+  margin-left: 1rem;
+}
+
+.title {
+  background-color: #FFBF69;
+  font-family: 'Fira Code', monospace;
+
+}
+
+
+header nav {
+  grid-column: span 3;
+}
+
+header .date {
+  grid-column: span 3;
+  font-size: 1.1rem;
+}
+
+header,
+footer {
+  background-color: #CBF3F0;
+  padding: 1rem;
+}
+
+/* HEADER: Today's date */
+.date,
+aside {
+  margin: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, .5);
+  padding: 0.75rem;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+
+
+/* nav_button */
+nav button {
+  margin: .2rem 2vw;
+  padding-right: auto;
+  background-color: #FFBF69;
+  border: none;
+  font-size: 2rem;
+  color: #2EC4B6;
+  align-self: center;
+}
+
+
+/* nav */
+nav ul {
+  font-family: 'Fira Code', monospace;
+  /* font-weight: 900; */
+  list-style: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #FFBF69;
+}
+
+nav ul a {
+  display: block;
+  padding: .8rem;
+  margin-bottom: 0;
+
+  border-top: 1px solid rgba(0, 0, 0, .5)
+}
+
+nav ul {
+  padding: .5rem;
+
+
+}
+
+.active {
+  padding: 0;
+  margin: 0;
+  background-color: #2EC4B6;
+}
+
+nav ul a:link,
+nav ul a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* Nav Hover/ active click */
+nav ul li a:hover,
+nav ul li a:active {
+  background-color: rgba(0, 0, 0, .1);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* on / off */
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+/* Butotn icon */
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+/* footer */
+footer div a {
+  padding: 5px;
+}
+
+footer div address,
+footer div h4,
+.creatorInfo {
+  margin: 1rem;
+}
+
+/* footer grid */
+footer {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 120px 20vh 20vh;
+}
+
+footer img {
+  margin: auto;
+}
+
+.creatorInfo {
+  padding: .4rem;
+  margin-left: 1rem;
+  font-size: .6rem;
+  background-color: #FFBF69;
+}
+
+
+/* Class area to creat flow */
+.title {
+  background-color: #FFBF69;
+  font-family: 'Fira Code', monospace;
+
+}
