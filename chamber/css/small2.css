@@ -69,13 +69,12 @@ aside {
 
 /* nav_button */
 nav button {
-  margin: .2rem 2vw;
-  padding-right: auto;
+  /* margin: .2rem 2vw; */
   background-color: #FFBF69;
   border: none;
   font-size: 2rem;
   color: #2EC4B6;
-  align-self: center;
+
 }
 
 

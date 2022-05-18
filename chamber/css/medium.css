@@ -55,9 +55,9 @@
   }
 
   .footer_right {
+    display: flexbox;
     text-align: right;
     grid-column: span 2;
-    display: flexbox;
     justify-content: flex-end;
   }
 
