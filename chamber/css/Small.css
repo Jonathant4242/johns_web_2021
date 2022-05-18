@@ -40,8 +40,6 @@ header h2 {
 
 }
 
-header h1,
-footer h4 {}
 
 header nav {
   grid-column: span 3;
