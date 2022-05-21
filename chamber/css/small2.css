@@ -153,6 +153,41 @@ nav ul.open {
   display: block;
 }
 
+/* MAIN */
+.maingrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem;
+  gap: .5rem;
+}
+
+/* spotlight */
+.spotlight {
+  display: flex;
+  padding: .5rem;
+  justify-content: space-between;
+
+}
+
+/* turned off main items in small */
+.join {
+  display: none;
+}
+
+.spot3 {
+  display: none;
+}
+
+/* bb is to see grid containers */
+.bb {
+  background-color: aquamarine;
+  /* border-color: black; */
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+}
+
+
 /* footer */
 footer div a {
   padding: 5px;
