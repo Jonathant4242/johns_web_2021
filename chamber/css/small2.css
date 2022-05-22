@@ -157,9 +157,48 @@ nav ul.open {
 .maingrid {
   display: grid;
   grid-template-columns: 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
   padding: 1rem;
   gap: .5rem;
 }
+
+/* WELCOME TO DRACKO PICTURE */
+.hero {
+  display: flex;
+
+  margin: 10px;
+  position: relative;
+  height: min-content;
+}
+
+.welcome_pic {
+  max-width: 375px;
+}
+
+.welcome {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  background: radial-gradient(#eee, #FFBF69);
+  border: 1px solid #000;
+  padding: .5rem;
+  box-shadow: 0 0 30px #333;
+  opacity: 0.9;
+  font-size: .65rem;
+}
+
+.join_c {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: radial-gradient(#eee, #2EC4B6);
+  border: 1px solid #000;
+  padding: .5rem;
+  box-shadow: 0 0 30px #333;
+  opacity: 0.9;
+  font-size: .65rem;
+}
+
 
 /* spotlight */
 .spotlight {
