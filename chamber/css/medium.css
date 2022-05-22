@@ -42,6 +42,23 @@
   }
 
   /*----- Main Grid items -----*/
+  /* image Hero */
+  .welcome_pic {
+    min-width: 28rem;
+    max-width: 72rem;
+    max-height: 500px;
+  }
+
+  .welcome {
+    font-size: 1rem;
+  }
+
+  .join_c {
+    right: 8rem;
+    font-size: 1rem;
+  }
+
+  /* image end */
 
   /* postioning */
   .news {

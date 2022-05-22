@@ -29,18 +29,30 @@
     grid-row: 1;
   }
 
+  /* image hero */
+  .welcome {
+    font-size: 1.2rem;
+  }
+
+  .join_c {
+    right: 2rem;
+    font-size: 1.2rem;
+  }
+
+  /* hero postion */
   .hero {
     grid-column: 2 / 4;
     grid-row: 1 / 3;
   }
 
+  /* hero ends */
   .weather {
     grid-column: 1;
     grid-row: 2;
   }
 
   .news {
-    grid-column: 2 / 5;
+    grid-column: 2 / 4;
     grid-row: 4;
   }
 
@@ -48,7 +60,7 @@
     justify-content: auto;
     flex-direction: column;
     grid-column: 4 / 5;
-    grid-row: 1 / 3;
+    grid-row: 1 / 5;
   }
 
   .weather {}
