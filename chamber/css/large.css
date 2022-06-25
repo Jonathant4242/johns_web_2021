@@ -8,6 +8,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+/* Nav button */
+
+nav button {
+  display: none;
+}
 
   /* spot 3 on */
   .spot3 {
