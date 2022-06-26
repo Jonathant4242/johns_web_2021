@@ -57,7 +57,12 @@ nav {
   text-align: center;
   background-color: #FFBF69;
 }
-
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
 nav div {
   padding: .5rem;
 
