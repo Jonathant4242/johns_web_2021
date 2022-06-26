@@ -40,7 +40,7 @@ nav button {
   }
 
 .welcome_pic{
-  max-width: fit-content;
+  max-width: max-content;
   max-height: auto;
 
 
