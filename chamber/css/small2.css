@@ -154,12 +154,17 @@ nav ul.open {
 }
 
 /* MAIN */
+
+main {
+padding: 1rem;
+}
 .maingrid {
   display: grid;
   grid-template-columns: 1fr;
   /* grid-template-rows: 1fr 1fr 1fr 1fr; */
-  padding: 1rem;
+  padding: 5rem;
   gap: .5rem;
+  justify-content: space-evenly;
 }
 
 /* WEATHER */
@@ -243,6 +248,8 @@ nav ul.open {
   border-width: 5px;
   border-color: black;
   border-style: solid;
+  justify-content: center;
+  align-content: flex-start;
 }
 
 

@@ -54,15 +54,15 @@ nav ul li a:hover {
   background-color: rgba(0, 0, 0, .3)
 }
 
-nav ul {
+/* nav ul {
   display: none;
-}
+} */
 
 nav ul.open {
   display: block;
 }
 
-#hamburgerBtn span:nth-child(1) {
+/* #hamburgerBtn span:nth-child(1) {
   display: block;
 }
 
@@ -76,4 +76,4 @@ nav ul.open {
 
 #hamburgerBtn.open span:nth-child(2) {
   display: block;
-}
+} */
