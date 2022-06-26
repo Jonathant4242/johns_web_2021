@@ -39,6 +39,11 @@ nav button {
     font-size: 1.2rem;
   }
 
+.welcome_pic{
+  max-width: 100%;
+
+
+}
   .join_c {
     right: 2rem;
     font-size: 1.2rem;
@@ -68,11 +73,11 @@ nav button {
     grid-row: 1 / 5;
   }
 
-  .weather {}
+  /* .weather {}
 
   .join {}
 
-  .news {}
+  .news {} */
 
 
   /* footer */
