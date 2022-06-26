@@ -41,7 +41,7 @@ nav button {
 
 .welcome_pic{
   min-width: 72rem;
-  max-width: 85rem;
+  max-width: max-content;
   max-height: auto;
 }
   .join_c {
