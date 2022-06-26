@@ -40,7 +40,6 @@ nav button {
   }
 
 .welcome_pic{
-  min-width: 72rem;
   max-width: max-content;
   max-height: auto;
 }
