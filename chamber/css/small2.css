@@ -184,24 +184,27 @@ padding: 1rem;
 /* WELCOME TO DRACKO PICTURE */
 .hero {
   display: flex;
-
   margin: 10px;
   position: relative;
   height: min-content;
   min-width: 375px;
+  justify-content: space-evenly;
+  align-content: stretch;
 }
 
 .welcome_pic {
   max-width: 475px;
   min-width: 200px;
   margin: 5px;
+  display: flex;
+
 
 }
 
 .welcome {
   position: absolute;
   top: 1rem;
-  left: 2rem;
+  right: 7rem;
   background: radial-gradient(#eee, #FFBF69);
   border: 1px solid #000;
   padding: .5rem;
@@ -213,7 +216,7 @@ padding: 1rem;
 .join_c {
   position: absolute;
   bottom: 1rem;
-  right: 4rem;
+  right: 1rem;
   background: radial-gradient(#eee, #2EC4B6);
   border: 1px solid #000;
   padding: .5rem;
