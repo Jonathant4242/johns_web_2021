@@ -56,8 +56,14 @@
 
       <!-- Main Grid content -->
       <section class="hero">
-        <img class="welcome_pic" src="images/orginal_shire_595x625_med.jpg"
+        <picture class="welcome_pic">
+  <source media="(max-width: px)"srcset="images/">          
+          <source media="(max-width: 400px)"srcset="chamber/images/">
+          <source media="(max-width: 650px)"srcset="images/">
+          <source media="(max-width: 900px)"srcset="images/">
+          <img src="images/orginal_shire_595x625_med.jpg"
           alt="Picture of the Shire from lord of the Ring. Gandof the grey is in the bottom left corner">
+        </picture>
         <h2 class="welcome">Welcome To Dracko</h2>
         <h4 class="join_c">Join the Chamber</h4>
       </section>
