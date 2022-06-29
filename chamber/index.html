@@ -56,16 +56,19 @@
 
       <!-- Main Grid content -->
       <section class="hero">
+        <!-- shire pic -->
         <!-- <img class="welcome_pic" src="images/orginal_shire_595x625_med.jpg"
         alt="Picture of the Shire from lord of the Ring. Gandof the grey is in the bottom left corner"> -->
 
-          <picture class="welcome_pic">
-          <source media="(max-width: px)"srcset="images/">          
-          <source media="(max-width: 400px)"srcset="images/">
-          <source media="(max-width: 650px)"srcset="images/">
-          <source media="(max-width: 900px)"srcset="images/">
-
+<!-- herosrc start -->
+        <picture class="welcome_pic">
+        <source media="(max-width: 400px)" srcset="images/heroSrc/heroSrc_400_low">          
+        <source media="(max-width: 650px)"srcset="images/heroSrc/heroSrc_650_low">
+        <source media="(max-width: 900px)"srcset="images/heroSrc/heroSrc_900_low">
+        <source media="(max-width: 1050px)"srcset="images/heroSrc/heroSrc_1050_low">
+        <img src="images/heroSrc/heroSrc_1050_low.jpg" alt="A picture of a couple, inside an office.">
         </picture>
+        <!-- herosrc end -->
         <h2 class="welcome">Welcome To Dracko</h2>
         <h4 class="join_c">Join the Chamber</h4>
       </section>
