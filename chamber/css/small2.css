@@ -165,6 +165,8 @@ padding: 1rem;
   padding: 5rem;
   gap: .5rem;
   justify-content: space-evenly;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* WEATHER */
