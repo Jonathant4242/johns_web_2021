@@ -205,13 +205,14 @@ padding: 1rem;
 
 /* pink picture */
 .welcome_pic_pink{
-  max-width: 10%;
+  display: block;
+  /* max-width: 10%;
   min-width: 200px;
   width: 407px;
   height: auto;
   margin: 5px;
   display: flex; 
-  justify-content: center;
+  justify-content: center; */
 }
 
 .welcome {
