@@ -205,7 +205,8 @@ padding: 1rem;
 
 /* pink picture */
 .welcome_pic_pink{
-  display: block;
+  display: flex;
+  justify-content: center;
   /* max-width: 10%;
   min-width: 200px;
   width: 407px;
