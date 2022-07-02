@@ -89,6 +89,7 @@ nav button {
   /* footer */
   .creatorInfo {
     display: flex;
+    justify-content: center;
 
   }
 
