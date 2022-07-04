@@ -1,0 +1,30 @@
+@media screen and (min-width: 1028px) {
+
+
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+    /* max-width: 75rem; */
+    /* margin: auto; */
+
+  }
+
+  header,
+  footer {
+    width: 100%;
+  }
+
+  section {
+    width: fit-content;
+  }
+
+  main figure img {
+    width: 75%;
+  }
+
+
+  main section:nth-child(3) {
+    grid-column: span 1;
+  }
+}
+
+/*end of media query
