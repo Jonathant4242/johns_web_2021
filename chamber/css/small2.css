@@ -307,3 +307,33 @@ footer img {
   font-family: 'Fira Code', monospace;
 
 }
+
+/* Discover */
+.discover_grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.discover_picture img{ width: 300px; height: 300; margin: .5rem;}
+
+.discover_picture{
+  display: flex;
+  justify-content: center;
+
+
+}
+.discover_picture:hover {
+  background-color: rgb(215, 215, 215, .8);
+  box-shadow: 2px 2px 2px 1px #FFBF69;}
+
+.discover_artical{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.d_number_3 h2{
+  margin-bottom: 1px;
+}
+.d_number_3 h4{
+  margin: 1px;
+  margin-top: 0px;
+}
