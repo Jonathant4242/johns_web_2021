@@ -147,3 +147,7 @@
 .discover_picture{
 margin: 1rem;
 }
+
+.discover_picture:hover {
+  background-color: rgb(215, 215, 215, .8);
+  box-shadow: 2px 2px 2px 1px #FFBF69;}
