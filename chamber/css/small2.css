@@ -307,3 +307,45 @@ footer img {
   font-family: 'Fira Code', monospace;
 
 }
+
+/* Discover */
+.discover_grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.discover_picture img{ width: 300px; height: 300; margin: .5rem;}
+
+.discover_picture{
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.discover_artical{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.d_number_3 h2{
+  margin-bottom: 1px;
+}
+.d_number_3 h4{
+  margin: 1px;
+  margin-top: 0px;
+}
+
+/* site counter */
+.visit_container {
+  font-size: .8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: .2rem;
+	background-color: #FFBF69;
+}
+.visit_container p {
+  padding: .5rem
+}

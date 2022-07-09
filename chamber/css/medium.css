@@ -136,4 +136,30 @@
     font-size: 1rem;
     background-color: #FFBF69;
   }
+
+
+/* Discover */
+.discover_grid{
+  grid-template-columns: 1fr 1fr;
+  margin: 1em;
+  
+}
+.discover_picture{
+margin: 1rem;
+}
+
+.discover_picture:hover {
+  background-color: rgb(215, 215, 215, .8);
+  box-shadow: 2px 2px 2px 1px #FFBF69;}
+
+picture:nth-child(odd) .discover_picture {
+grid-column: 2;
+}
+article:nth-child(odd) .discover_artical {
+  grid-row: 1;
+}
+
+
+
+/* end of media query */
 }
