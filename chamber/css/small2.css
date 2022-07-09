@@ -334,3 +334,18 @@ flex-direction: column;
   margin: 1px;
   margin-top: 0px;
 }
+
+/* site counter */
+.visit_container {
+  font-size: .8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: .2rem;
+	background-color: #FFBF69;
+}
+.visit_container p {
+  padding: .5rem
+}
