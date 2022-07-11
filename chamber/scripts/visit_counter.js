@@ -27,15 +27,21 @@ currentDate.textContent = Number(Date.now());
 
 localStorage.setItem("last-visit-time", Date.now());
 
-var timeLapse = Date.now() - lastVisit;
+const msInDay = 1000 * 60 * 60 * 24;
+
+var timeLapse = Math.round((Date.now() - lastVisit) / msInDay);
 
 
+const timeLapseDisplay = document.querySelector(".previous_visit");
 
-// // timeLapse.textContent = timeLapseDisplay;
 
-// const timeLapseDisplay = document.querySelector(".previous_visit");
+if (timeLapse !== 0) {
+	timeLapseDisplay.textContent = timeLapse + "days";
+} else {
+	timeLapseDisplay.textContent = `0 days since your last visit.`;
+}
 
-console.log("time since last visit " + (timeLapse) +" in millisconds")
+console.log("time since last visit " + (timeLapse))
 
 
 
