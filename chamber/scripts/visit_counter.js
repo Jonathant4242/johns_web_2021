@@ -36,7 +36,7 @@ const timeLapseDisplay = document.querySelector(".previous_visit");
 
 
 if (timeLapse !== 0) {
-	timeLapseDisplay.textContent = timeLapse + "days";
+	timeLapseDisplay.textContent = timeLapse +" days";
 } else {
 	timeLapseDisplay.textContent = `0 days since your last visit.`;
 }
